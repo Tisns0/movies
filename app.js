@@ -37,7 +37,7 @@ mongoose
 
   .then((result) => {
     app.listen(port, () => {
-      console.log(`Example app listening http://localhost:${port}`)
+      console.log(`Example app listening https://tisns0.github.io/movies/:${port}`)
     })
   })
   .catch((err) => { console.log(err) });
